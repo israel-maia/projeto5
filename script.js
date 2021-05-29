@@ -18,3 +18,10 @@ function dividir() {
     var number9 = parseInt(document.getElementById('number9').value); 
     document.getElementById('results').value = (number7 / number8 / number9);
 }
+
+function subtração() {
+    var number10 = parseInt(document.getElementById('number10').value);
+    var number11 = parseInt(document.getElementById('number11').value);
+    var number12 = parseInt(document.getElementById('number12').value); 
+    document.getElementById('resposta').value = (number10 - number11 - number12);
+}
